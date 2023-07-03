@@ -46,7 +46,7 @@ const NavigationItem: FC<NavigationItemProps> = ({ label, path }) => {
         sx={{
           display: 'block',
           mb: 1,
-          color: 'primary.contrast',
+          color: 'primary.dark',
         }}
       >
         {label}
