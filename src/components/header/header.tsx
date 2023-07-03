@@ -46,18 +46,18 @@ const Header: FC = () => {
             <Box /> {/* Magic space */}
             <Navigation />
             <AuthNavigation />
-            {visibleMenu && matchMobileView && (
+            {/* {visibleMenu && matchMobileView && (
               <IconButton
                 sx={{
                   position: 'fixed',
                   top: 10,
                   right: 10,
                 }}
-                onClick={() => setVisibleMenu(!visibleMenu)}
+                onClick={() => console.log}
               >
                 <Close />
               </IconButton>
-            )}
+            )} */}
           </Box>
         </Box>
       </Container>
