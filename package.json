@@ -1,6 +1,7 @@
 {
   "name": "coursespace-landing-page",
   "version": "0.1.0",
+  "homepage": "Landing_jvm/",
   "private": true,
   "scripts": {
     "dev": "next dev",
